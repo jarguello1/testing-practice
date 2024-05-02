@@ -5,7 +5,7 @@ test('Cipher encryption', () => {
 })
 
 test('Cipher encryption', () => {
-    expect(caesarCipher.caesarEncrypt('Four score and seven year ago', 2)).toBe('HQWT UEQTG CPF UGXGP AGCT CIQ')
+    expect(caesarCipher.caesarEncrypt('four score and seven year ago', 2)).toBe('HQWT UEQTG CPF UGXGP AGCT CIQ')
 })
 
 test('Cipher decryption', () => {
@@ -13,5 +13,5 @@ test('Cipher decryption', () => {
 })
 
 test('Cipher decryption', () => {
-    expect(caesarCipher.caesarDecrypt('QPEG WRQP C VKOG', 2)).toBe('Once Upon a Time')
+    expect(caesarCipher.caesarDecrypt('QPEG WRQP C VKOG', 2)).toBe('once upon a time')
 })
